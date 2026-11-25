@@ -64,7 +64,7 @@ Luego sigue en orden: lee el `README.md` de cada módulo y corre su código.
 ## Progreso
 
 - [ ] 00 — Fundamentos
-- [ ] 01 — Álgebra lineal
+- [x] 01 — Álgebra lineal (completado 25/11, 4/4 ejercicios)
 - [ ] 02 — Cálculo
 - [ ] 03 — Probabilidad y estadística
 - [ ] 04 — Optimización
