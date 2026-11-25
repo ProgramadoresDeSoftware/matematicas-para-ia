@@ -32,6 +32,7 @@ Para un backend que ya programa, sabe Python básico y quiere entender **por qu�
 
 - Módulo 00: [Abrir en Colab](https://colab.research.google.com/github/ProgramadoresDeSoftware/matematicas-para-ia/blob/main/00-fundamentos/python_numpy.ipynb)
 - Módulo 01: [Abrir en Colab](https://colab.research.google.com/github/ProgramadoresDeSoftware/matematicas-para-ia/blob/main/01-algebra-lineal/vectores_matrices.ipynb)
+- Módulo 02: [Abrir en Colab](https://colab.research.google.com/github/ProgramadoresDeSoftware/matematicas-para-ia/blob/main/02-calculo/derivadas_gradiente.ipynb)
 
 **En tu computadora:**
 
