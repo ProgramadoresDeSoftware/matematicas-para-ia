@@ -28,3 +28,19 @@ Una matriz `M` aplicada a un vector `v` (`M @ v`) mueve, estira o rota esa flech
 - La **SVD** descompone cualquier matriz en tres piezas simples. Es la herramienta detrás de PCA (reducir dimensiones) y de LoRA (entrenar barato un modelo grande). La idea basta por ahora; el detalle vive en el módulo 05.
 
 Corre `vectores_matrices.py`, cambia los vectores y mira cómo cambia el parecido.
+
+## Glosario rápido: las funciones que usaste
+
+| Función | Qué es, en criollo | Qué devuelve |
+|---|---|---|
+| `np.linalg` | La caja de herramientas de álgebra lineal de NumPy. `linalg` = *linear algebra*. No hace nada sola: es el apellido de `det`, `solve`, `norm`, `inv`, `eig`… | — |
+| `np.linalg.det(M)` | El **determinante**: un solo número que dice cuánto estira o encoge la matriz. `det = 0` significa que aplasta todo a una línea o un punto: sin inversa, sin solución única. | Un número |
+| `np.linalg.solve(M, b)` | Resuelve `M @ x = b`: «¿qué vector, al transformarlo con M, me da b?». Exige matriz cuadrada con `det ≠ 0`; si no, explota con `LinAlgError: Singular matrix`. | El vector `x` |
+| `np.dot(a, b)` | El **producto punto**: multiplica elemento a elemento y suma todo. Con vectores mide parecido de dirección; con matrices 2D es multiplicación de matrices (hoy se prefiere `@` o `np.matmul` para eso). | Un número (vectores) o una matriz |
+| `np.linalg.norm(v)` | La **norma**: el largo de la flecha. `norm([3, 4]) = 5`. | Un número |
+
+## Dónde buscar documentación básica
+
+1. **Dentro del propio Colab (lo más rápido):** escribe `np.linalg.det?` o `help(np.dot)` en una celda y corre. También `Shift + Tab` con el cursor sobre la función muestra su ayuda sin salir del notebook.
+2. **Documentación oficial de NumPy (en inglés, con ejemplos):** [Linear algebra — NumPy Manual](https://numpy.org/doc/stable/reference/routines.linalg.html). Ahí están `dot`, `det`, `solve`, `norm` y todas las demás, cada una con su página propia y ejemplos que se pueden copiar a Colab.
+3. **Este repo:** cada README explica primero en criollo qué hace la función y por qué importa en IA, antes de la fórmula.
