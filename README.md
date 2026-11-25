@@ -28,6 +28,13 @@ Para un backend que ya programa, sabe Python básico y quiere entender **por qu�
 
 ## Cómo empezar
 
+**En la nube, sin instalar nada (recomendado):** abre los notebooks directo en Google Colab con tu cuenta de Google. Ahí corren, y con *Archivo → Guardar una copia en Drive* tus prácticas quedan guardadas en tu Drive.
+
+- Módulo 00: [Abrir en Colab](https://colab.research.google.com/github/ProgramadoresDeSoftware/matematicas-para-ia/blob/main/00-fundamentos/python_numpy.ipynb)
+- Módulo 01: [Abrir en Colab](https://colab.research.google.com/github/ProgramadoresDeSoftware/matematicas-para-ia/blob/main/01-algebra-lineal/vectores_matrices.ipynb)
+
+**En tu computadora:**
+
 ```bash
 git clone https://github.com/ProgramadoresDeSoftware/matematicas-para-ia.git
 cd matematicas-para-ia
