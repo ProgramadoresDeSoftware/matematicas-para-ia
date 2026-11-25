@@ -1,0 +1,4 @@
+numpy>=1.26
+matplotlib>=3.8
+# PyTorch solo se usa desde el módulo 06. Instálalo entonces:
+# torch --index-url https://download.pytorch.org/whl/cpu
